@@ -7,7 +7,14 @@ from typing import Dict
 import yaml
 import pathlib
 
-from src.preprocessing.chunking import ChunkStrategy, SectionRecursiveStrategy, SectionRecursiveConfig, ChunkConfig
+from src.preprocessing.chunking import (
+    ChunkStrategy, ChunkConfig,
+    SectionRecursiveStrategy, SectionRecursiveConfig,
+    SlidingWindowStrategy, SlidingWindowConfig,
+    SentenceBoundaryStrategy, SentenceBoundaryConfig,
+    ParagraphAwareStrategy, ParagraphAwareConfig,
+    AdaptiveStrategy, AdaptiveConfig,
+)
 
 @dataclass
 class RAGConfig:
@@ -84,8 +91,31 @@ class RAGConfig:
                 recursive_chunk_size=self.chunk_size,
                 recursive_overlap=self.chunk_overlap
             )
+        elif self.chunk_mode == "sliding_window":
+            return SlidingWindowConfig(
+                window_size=self.chunk_size,
+                overlap=self.chunk_overlap
+            )
+        elif self.chunk_mode == "sentence_boundary":
+            return SentenceBoundaryConfig(
+                max_chunk_size=self.chunk_size,
+                overlap_sentences=1
+            )
+        elif self.chunk_mode == "paragraph":
+            return ParagraphAwareConfig(
+                max_chunk_size=self.chunk_size,
+                overlap=self.chunk_overlap
+            )
+        elif self.chunk_mode == "adaptive":
+            return AdaptiveConfig(
+                max_chunk_size=self.chunk_size,
+                overlap=self.chunk_overlap
+            )
         else:
-            raise ValueError(f"Unknown chunk_mode: {self.chunk_mode}. Supported: recursive_sections")
+            raise ValueError(
+                f"Unknown chunk_mode: {self.chunk_mode}. "
+                f"Supported: recursive_sections, sliding_window, sentence_boundary, paragraph, adaptive"
+            )
 
     def get_chunk_strategy(self) -> ChunkStrategy:
         if isinstance(self.chunk_config, SectionRecursiveConfig):
