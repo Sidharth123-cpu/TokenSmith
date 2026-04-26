@@ -120,6 +120,14 @@ class RAGConfig:
     def get_chunk_strategy(self) -> ChunkStrategy:
         if isinstance(self.chunk_config, SectionRecursiveConfig):
             return SectionRecursiveStrategy(self.chunk_config)
+        elif isinstance(self.chunk_config, SlidingWindowConfig):
+            return SlidingWindowStrategy(self.chunk_config)
+        elif isinstance(self.chunk_config, SentenceBoundaryConfig):
+            return SentenceBoundaryStrategy(self.chunk_config)
+        elif isinstance(self.chunk_config, ParagraphAwareConfig):
+            return ParagraphAwareStrategy(self.chunk_config)
+        elif isinstance(self.chunk_config, AdaptiveConfig):
+            return AdaptiveStrategy(self.chunk_config)
         raise ValueError(f"Unknown chunk config type: {self.chunk_config.__class__.__name__}")
 
     def get_artifacts_directory(self) -> os.PathLike:

@@ -1,0 +1,602 @@
+[
+  {
+    "strategy": "recursive_sections",
+    "status": "OK",
+    "n_chunks": 1744,
+    "avg_chunk_size": 1610.0378440366972,
+    "median_chunk_size": 1924.0,
+    "search_time_total": 0.0064051151275634766,
+    "search_time_per_query": 0.00042700767517089844,
+    "mean_top1_recall": 0.6722222222222223,
+    "mean_top5_recall": 0.9,
+    "top1_section_hit_rate": 0.5333333333333333,
+    "top5_section_hit_rate": 0.6666666666666666,
+    "per_question": [
+      {
+        "q": "What problem does concurrency control solve in a database system?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the two-phase locking protocol?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between strict two-phase locking and basic two-phase locking?",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are deadlocks detected in database systems?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is timestamp-based concurrency control?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is snapshot isolation?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does ARIES recovery work?",
+        "top1_recall": 0.0,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is write-ahead logging?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a B+ tree index used for?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does the buffer manager handle page replacement?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What are the ACID properties of a transaction?",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is query optimization?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a hash join?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is normalization in database design?",
+        "top1_recall": 0.3333333333333333,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a foreign key constraint?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      }
+    ]
+  },
+  {
+    "strategy": "sliding_window",
+    "status": "OK",
+    "n_chunks": 1737,
+    "avg_chunk_size": 1553.9936672423719,
+    "median_chunk_size": 1966.0,
+    "search_time_total": 0.0012691020965576172,
+    "search_time_per_query": 8.460680643717448e-05,
+    "mean_top1_recall": 0.638888888888889,
+    "mean_top5_recall": 0.85,
+    "top1_section_hit_rate": 0.4666666666666667,
+    "top5_section_hit_rate": 0.6,
+    "per_question": [
+      {
+        "q": "What problem does concurrency control solve in a database system?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the two-phase locking protocol?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between strict two-phase locking and basic two-phase locking?",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are deadlocks detected in database systems?",
+        "top1_recall": 0.0,
+        "top5_recall": 0.25,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is timestamp-based concurrency control?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is snapshot isolation?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does ARIES recovery work?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is write-ahead logging?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a B+ tree index used for?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does the buffer manager handle page replacement?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What are the ACID properties of a transaction?",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is query optimization?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a hash join?",
+        "top1_recall": 0.25,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is normalization in database design?",
+        "top1_recall": 0.3333333333333333,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a foreign key constraint?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      }
+    ]
+  },
+  {
+    "strategy": "sentence_boundary",
+    "status": "OK",
+    "n_chunks": 1750,
+    "avg_chunk_size": 1511.1291428571428,
+    "median_chunk_size": 1823.5,
+    "search_time_total": 0.0013170242309570312,
+    "search_time_per_query": 8.780161539713541e-05,
+    "mean_top1_recall": 0.7,
+    "mean_top5_recall": 0.8833333333333333,
+    "top1_section_hit_rate": 0.4666666666666667,
+    "top5_section_hit_rate": 0.8,
+    "per_question": [
+      {
+        "q": "What problem does concurrency control solve in a database system?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the two-phase locking protocol?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between strict two-phase locking and basic two-phase locking?",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are deadlocks detected in database systems?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is timestamp-based concurrency control?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is snapshot isolation?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does ARIES recovery work?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is write-ahead logging?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a B+ tree index used for?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does the buffer manager handle page replacement?",
+        "top1_recall": 0.25,
+        "top5_recall": 0.5,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What are the ACID properties of a transaction?",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is query optimization?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a hash join?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is normalization in database design?",
+        "top1_recall": 0.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a foreign key constraint?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      }
+    ]
+  },
+  {
+    "strategy": "paragraph",
+    "status": "OK",
+    "n_chunks": 1698,
+    "avg_chunk_size": 1476.7832744405182,
+    "median_chunk_size": 1814.5,
+    "search_time_total": 0.0013692378997802734,
+    "search_time_per_query": 9.128252665201823e-05,
+    "mean_top1_recall": 0.6944444444444444,
+    "mean_top5_recall": 0.7944444444444444,
+    "top1_section_hit_rate": 0.4666666666666667,
+    "top5_section_hit_rate": 0.6,
+    "per_question": [
+      {
+        "q": "What problem does concurrency control solve in a database system?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the two-phase locking protocol?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between strict two-phase locking and basic two-phase locking?",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are deadlocks detected in database systems?",
+        "top1_recall": 0.25,
+        "top5_recall": 0.25,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is timestamp-based concurrency control?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is snapshot isolation?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does ARIES recovery work?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is write-ahead logging?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a B+ tree index used for?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does the buffer manager handle page replacement?",
+        "top1_recall": 0.25,
+        "top5_recall": 0.5,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What are the ACID properties of a transaction?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is query optimization?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a hash join?",
+        "top1_recall": 0.25,
+        "top5_recall": 0.25,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is normalization in database design?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a foreign key constraint?",
+        "top1_recall": 0.6666666666666666,
+        "top5_recall": 0.6666666666666666,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      }
+    ]
+  },
+  {
+    "strategy": "adaptive",
+    "status": "OK",
+    "n_chunks": 1750,
+    "avg_chunk_size": 1510.7234285714285,
+    "median_chunk_size": 1823.5,
+    "search_time_total": 0.001560211181640625,
+    "search_time_per_query": 0.00010401407877604166,
+    "mean_top1_recall": 0.7,
+    "mean_top5_recall": 0.8833333333333333,
+    "top1_section_hit_rate": 0.4666666666666667,
+    "top5_section_hit_rate": 0.8,
+    "per_question": [
+      {
+        "q": "What problem does concurrency control solve in a database system?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the two-phase locking protocol?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between strict two-phase locking and basic two-phase locking?",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are deadlocks detected in database systems?",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is timestamp-based concurrency control?",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is snapshot isolation?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does ARIES recovery work?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is write-ahead logging?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a B+ tree index used for?",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does the buffer manager handle page replacement?",
+        "top1_recall": 0.25,
+        "top5_recall": 0.5,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What are the ACID properties of a transaction?",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is query optimization?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a hash join?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is normalization in database design?",
+        "top1_recall": 0.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a foreign key constraint?",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      }
+    ]
+  }
+]

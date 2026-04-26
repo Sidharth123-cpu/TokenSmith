@@ -1,0 +1,47 @@
+[
+  {
+    "strategy": "recursive_sections",
+    "status": "OK",
+    "n_chunks": 1744,
+    "n_pairs_analyzed": 200,
+    "mean_boundary_similarity": 0.35486761629581454,
+    "median_boundary_similarity": 0.35188695788383484,
+    "std_boundary_similarity": 0.1691498596697465
+  },
+  {
+    "strategy": "sliding_window",
+    "status": "OK",
+    "n_chunks": 1737,
+    "n_pairs_analyzed": 200,
+    "mean_boundary_similarity": 0.31989849949255583,
+    "median_boundary_similarity": 0.29482027888298035,
+    "std_boundary_similarity": 0.21430771562117854
+  },
+  {
+    "strategy": "sentence_boundary",
+    "status": "OK",
+    "n_chunks": 1750,
+    "n_pairs_analyzed": 200,
+    "mean_boundary_similarity": 0.6489160407613963,
+    "median_boundary_similarity": 0.8268225491046906,
+    "std_boundary_similarity": 0.36738622720083347
+  },
+  {
+    "strategy": "paragraph",
+    "status": "OK",
+    "n_chunks": 1698,
+    "n_pairs_analyzed": 200,
+    "mean_boundary_similarity": 0.3788713180460036,
+    "median_boundary_similarity": 0.3756731152534485,
+    "std_boundary_similarity": 0.187352324194329
+  },
+  {
+    "strategy": "adaptive",
+    "status": "OK",
+    "n_chunks": 1750,
+    "n_pairs_analyzed": 200,
+    "mean_boundary_similarity": 0.6489160407613963,
+    "median_boundary_similarity": 0.8268225491046906,
+    "std_boundary_similarity": 0.36738622720083347
+  }
+]
