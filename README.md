@@ -248,3 +248,48 @@ Artifacts:
 * `tests/results/failed_tests.log`
 
 Documentation: see `tests/README.md`.
+
+## Chunking Strategy Evaluation
+
+This fork adds 4 new chunking strategies (sliding window, sentence boundary, paragraph-aware, adaptive) plus an evaluation suite.
+
+### Switch chunking strategy
+
+Edit `config/config.yaml`:
+```yaml
+chunk_mode: "sentence_boundary"  # or sliding_window, paragraph, adaptive, recursive_sections
+```
+
+Then index:
+```bash
+python -m src.main index --index_prefix textbook_<strategy_name>
+```
+
+### Run unit tests
+
+```bash
+python -m pytest tests/test_chunking.py -v
+```
+
+All 25 tests should pass.
+
+### Run evaluation pipeline
+
+After indexing all 5 strategies:
+```bash
+chmod +x run_all_evals.sh
+./run_all_evals.sh
+```
+
+This produces:
+- `benchmark_results.json` — retrieval metrics (top-1/top-5 keyword recall, section hit rate)
+- `boundary_coherence_results.json` — semantic coherence at chunk boundaries
+- `chunk_visualizations/index.html` — open in a browser to see chunk boundaries overlaid on the document
+
+### Individual scripts
+
+```bash
+pyenchmark_chunking.py      # Retrieval benchmark
+python boundary_coherence.py      # Boundary coherence (125% goal)
+python visualize_chunks.py        # Chunk visualizations (125% goal)
+```
