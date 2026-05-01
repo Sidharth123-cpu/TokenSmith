@@ -1,0 +1,525 @@
+[
+  {
+    "strategy": "recursive_sections",
+    "status": "OK",
+    "n_chunks": 1744,
+    "avg_chunk_size": 1610.0378440366972,
+    "median_chunk_size": 1924.0,
+    "search_time_total": 0.03391909599304199,
+    "search_time_per_query": 0.0005653182665506999,
+    "mean_top1_recall": 0.5883333333333334,
+    "mean_top5_recall": 0.8219444444444444,
+    "top1_section_hit_rate": 0.43333333333333335,
+    "top5_section_hit_rate": 0.5833333333333334,
+    "factual_top1_recall": 0.5916666666666666,
+    "factual_top5_recall": 0.8625,
+    "factual_top1_section_hit": 0.4,
+    "factual_top5_section_hit": 0.6,
+    "multi_part_top1_recall": 0.615,
+    "multi_part_top5_recall": 0.8275,
+    "multi_part_top1_section_hit": 0.6,
+    "multi_part_top5_section_hit": 0.8,
+    "structure_aware_top1_recall": 0.5583333333333333,
+    "structure_aware_top5_recall": 0.7758333333333334,
+    "structure_aware_top1_section_hit": 0.3,
+    "structure_aware_top5_section_hit": 0.35,
+    "per_question": [
+      {
+        "q": "What problem does concurrency control solve in a database system?",
+        "category": "factual",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the two-phase locking protocol?",
+        "category": "factual",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is timestamp-based concurrency control?",
+        "category": "factual",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is snapshot isolation?",
+        "category": "factual",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is write-ahead logging?",
+        "category": "factual",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a B+ tree index used for?",
+        "category": "factual",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a hash join?",
+        "category": "factual",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a foreign key constraint?",
+        "category": "factual",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a primary key?",
+        "category": "factual",
+        "top1_recall": 0.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is normalization in database design?",
+        "category": "factual",
+        "top1_recall": 0.3333333333333333,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a serializable schedule?",
+        "category": "factual",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a deadlock in a database system?",
+        "category": "factual",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a relational schema?",
+        "category": "factual",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the SQL SELECT statement used for?",
+        "category": "factual",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is referential integrity?",
+        "category": "factual",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a view in SQL?",
+        "category": "factual",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a cursor in database programming?",
+        "category": "factual",
+        "top1_recall": 0.0,
+        "top5_recall": 0.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a stored procedure?",
+        "category": "factual",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is a checkpoint in database recovery?",
+        "category": "factual",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is a transaction in a database system?",
+        "category": "factual",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between strict two-phase locking and basic two-phase locking?",
+        "category": "multi_part",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are deadlocks detected in database systems?",
+        "category": "multi_part",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does ARIES recovery work?",
+        "category": "multi_part",
+        "top1_recall": 0.0,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How does the buffer manager handle page replacement?",
+        "category": "multi_part",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What are the ACID properties of a transaction?",
+        "category": "multi_part",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does query optimization choose between alternative plans?",
+        "category": "multi_part",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the difference between dense and sparse indexes?",
+        "category": "multi_part",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How do hash indexes differ from tree indexes?",
+        "category": "multi_part",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between optimistic and pessimistic concurrency control?",
+        "category": "multi_part",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How is conflict serializability tested using a precedence graph?",
+        "category": "multi_part",
+        "top1_recall": 0.8,
+        "top5_recall": 0.8,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the difference between physical and logical logging?",
+        "category": "multi_part",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does a query optimizer estimate the cost of a join operation?",
+        "category": "multi_part",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are functional dependencies used in normalization?",
+        "category": "multi_part",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between volatile, non-volatile, and stable storage?",
+        "category": "multi_part",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does multiversion concurrency control reduce contention?",
+        "category": "multi_part",
+        "top1_recall": 0.25,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "How are nested loop joins different from sort-merge joins?",
+        "category": "multi_part",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How is recovery handled after a system crash?",
+        "category": "multi_part",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the difference between equi-join and natural join?",
+        "category": "multi_part",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How does the database handle long-running queries with respect to locks?",
+        "category": "multi_part",
+        "top1_recall": 0.25,
+        "top5_recall": 0.5,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the relationship between transactions and the log?",
+        "category": "multi_part",
+        "top1_recall": 0.75,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is query optimization?",
+        "category": "structure_aware",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a B+ tree leaf node?",
+        "category": "structure_aware",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What are the steps of the ARIES recovery algorithm?",
+        "category": "structure_aware",
+        "top1_recall": 0.0,
+        "top5_recall": 0.5,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What does the third normal form require?",
+        "category": "structure_aware",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the structure of a transaction log record?",
+        "category": "structure_aware",
+        "top1_recall": 0.25,
+        "top5_recall": 0.25,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is Boyce-Codd Normal Form?",
+        "category": "structure_aware",
+        "top1_recall": 0.5,
+        "top5_recall": 0.5,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of an SQL JOIN clause?",
+        "category": "structure_aware",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How are GROUP BY and HAVING clauses structured in SQL?",
+        "category": "structure_aware",
+        "top1_recall": 0.6666666666666666,
+        "top5_recall": 0.6666666666666666,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a relational algebra projection operation?",
+        "category": "structure_aware",
+        "top1_recall": 0.25,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a relational algebra selection operation?",
+        "category": "structure_aware",
+        "top1_recall": 0.5,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a hash table for indexing?",
+        "category": "structure_aware",
+        "top1_recall": 0.75,
+        "top5_recall": 0.75,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How is a heap file organized?",
+        "category": "structure_aware",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "What is the structure of a database page?",
+        "category": "structure_aware",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a wait-for graph?",
+        "category": "structure_aware",
+        "top1_recall": 0.6,
+        "top5_recall": 0.8,
+        "top1_section_hit": false,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How is the precedence graph constructed for testing serializability?",
+        "category": "structure_aware",
+        "top1_recall": 0.8,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a logical log record in ARIES?",
+        "category": "structure_aware",
+        "top1_recall": 0.0,
+        "top5_recall": 0.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of an entity-relationship diagram?",
+        "category": "structure_aware",
+        "top1_recall": 1.0,
+        "top5_recall": 1.0,
+        "top1_section_hit": true,
+        "top5_section_hit": true
+      },
+      {
+        "q": "How is a foreign key constraint specified in SQL?",
+        "category": "structure_aware",
+        "top1_recall": 0.5,
+        "top5_recall": 1.0,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of an SQL CREATE TABLE statement?",
+        "category": "structure_aware",
+        "top1_recall": 0.25,
+        "top5_recall": 0.75,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      },
+      {
+        "q": "What is the structure of a query execution plan tree?",
+        "category": "structure_aware",
+        "top1_recall": 0.6,
+        "top5_recall": 0.8,
+        "top1_section_hit": false,
+        "top5_section_hit": false
+      }
+    ]
+  },
+  {
+    "strategy": "sliding_window",
+    "status": "MISSING"
+  },
+  {
+    "strategy": "sentence_boundary",
+    "status": "MISSING"
+  },
+  {
+    "strategy": "paragraph",
+    "status": "MISSING"
+  },
+  {
+    "strategy": "adaptive",
+    "status": "MISSING"
+  }
+]

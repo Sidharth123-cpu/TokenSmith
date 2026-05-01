@@ -1,0 +1,266 @@
+{
+  "textbook_dense_prose": {
+    "default_n_chunks": 1,
+    "features": {
+      "num_paragraphs": 1,
+      "num_sentences": 8,
+      "avg_paragraph_len": 1020.0,
+      "avg_sentence_len": 127.5,
+      "paragraph_density": 0.9803921568627451,
+      "has_headers": false,
+      "total_length": 1020
+    },
+    "ablation": [
+      {
+        "threshold": 1.0,
+        "chosen_strategy": "sentence_boundary",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 8,
+          "avg_paragraph_len": 1020.0,
+          "avg_sentence_len": 127.5,
+          "paragraph_density": 0.9803921568627451,
+          "has_headers": false,
+          "total_length": 1020
+        }
+      },
+      {
+        "threshold": 2.0,
+        "chosen_strategy": "sentence_boundary",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 8,
+          "avg_paragraph_len": 1020.0,
+          "avg_sentence_len": 127.5,
+          "paragraph_density": 0.9803921568627451,
+          "has_headers": false,
+          "total_length": 1020
+        }
+      },
+      {
+        "threshold": 3.0,
+        "chosen_strategy": "sentence_boundary",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 8,
+          "avg_paragraph_len": 1020.0,
+          "avg_sentence_len": 127.5,
+          "paragraph_density": 0.9803921568627451,
+          "has_headers": false,
+          "total_length": 1020
+        }
+      },
+      {
+        "threshold": 5.0,
+        "chosen_strategy": "sentence_boundary",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 8,
+          "avg_paragraph_len": 1020.0,
+          "avg_sentence_len": 127.5,
+          "paragraph_density": 0.9803921568627451,
+          "has_headers": false,
+          "total_length": 1020
+        }
+      }
+    ]
+  },
+  "structured_with_headers": {
+    "default_n_chunks": 1,
+    "features": {
+      "num_paragraphs": 6,
+      "num_sentences": 5,
+      "avg_paragraph_len": 57.166666666666664,
+      "avg_sentence_len": 68.6,
+      "paragraph_density": 17.492711370262388,
+      "has_headers": true,
+      "total_length": 343
+    },
+    "ablation": [
+      {
+        "threshold": 1.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 6,
+          "num_sentences": 5,
+          "avg_paragraph_len": 57.166666666666664,
+          "avg_sentence_len": 68.6,
+          "paragraph_density": 17.492711370262388,
+          "has_headers": true,
+          "total_length": 343
+        }
+      },
+      {
+        "threshold": 2.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 6,
+          "num_sentences": 5,
+          "avg_paragraph_len": 57.166666666666664,
+          "avg_sentence_len": 68.6,
+          "paragraph_density": 17.492711370262388,
+          "has_headers": true,
+          "total_length": 343
+        }
+      },
+      {
+        "threshold": 3.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 6,
+          "num_sentences": 5,
+          "avg_paragraph_len": 57.166666666666664,
+          "avg_sentence_len": 68.6,
+          "paragraph_density": 17.492711370262388,
+          "has_headers": true,
+          "total_length": 343
+        }
+      },
+      {
+        "threshold": 5.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 6,
+          "num_sentences": 5,
+          "avg_paragraph_len": 57.166666666666664,
+          "avg_sentence_len": 68.6,
+          "paragraph_density": 17.492711370262388,
+          "has_headers": true,
+          "total_length": 343
+        }
+      }
+    ]
+  },
+  "short_choppy_sentences": {
+    "default_n_chunks": 1,
+    "features": {
+      "num_paragraphs": 1,
+      "num_sentences": 10,
+      "avg_paragraph_len": 364.0,
+      "avg_sentence_len": 36.4,
+      "paragraph_density": 2.7472527472527473,
+      "has_headers": false,
+      "total_length": 364
+    },
+    "ablation": [
+      {
+        "threshold": 1.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 10,
+          "avg_paragraph_len": 364.0,
+          "avg_sentence_len": 36.4,
+          "paragraph_density": 2.7472527472527473,
+          "has_headers": false,
+          "total_length": 364
+        }
+      },
+      {
+        "threshold": 2.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 10,
+          "avg_paragraph_len": 364.0,
+          "avg_sentence_len": 36.4,
+          "paragraph_density": 2.7472527472527473,
+          "has_headers": false,
+          "total_length": 364
+        }
+      },
+      {
+        "threshold": 3.0,
+        "chosen_strategy": "sentence_boundary",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 10,
+          "avg_paragraph_len": 364.0,
+          "avg_sentence_len": 36.4,
+          "paragraph_density": 2.7472527472527473,
+          "has_headers": false,
+          "total_length": 364
+        }
+      },
+      {
+        "threshold": 5.0,
+        "chosen_strategy": "sentence_boundary",
+        "features": {
+          "num_paragraphs": 1,
+          "num_sentences": 10,
+          "avg_paragraph_len": 364.0,
+          "avg_sentence_len": 36.4,
+          "paragraph_density": 2.7472527472527473,
+          "has_headers": false,
+          "total_length": 364
+        }
+      }
+    ]
+  },
+  "many_short_paragraphs": {
+    "default_n_chunks": 1,
+    "features": {
+      "num_paragraphs": 8,
+      "num_sentences": 8,
+      "avg_paragraph_len": 37.625,
+      "avg_sentence_len": 37.625,
+      "paragraph_density": 26.578073089700997,
+      "has_headers": false,
+      "total_length": 301
+    },
+    "ablation": [
+      {
+        "threshold": 1.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 8,
+          "num_sentences": 8,
+          "avg_paragraph_len": 37.625,
+          "avg_sentence_len": 37.625,
+          "paragraph_density": 26.578073089700997,
+          "has_headers": false,
+          "total_length": 301
+        }
+      },
+      {
+        "threshold": 2.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 8,
+          "num_sentences": 8,
+          "avg_paragraph_len": 37.625,
+          "avg_sentence_len": 37.625,
+          "paragraph_density": 26.578073089700997,
+          "has_headers": false,
+          "total_length": 301
+        }
+      },
+      {
+        "threshold": 3.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 8,
+          "num_sentences": 8,
+          "avg_paragraph_len": 37.625,
+          "avg_sentence_len": 37.625,
+          "paragraph_density": 26.578073089700997,
+          "has_headers": false,
+          "total_length": 301
+        }
+      },
+      {
+        "threshold": 5.0,
+        "chosen_strategy": "paragraph",
+        "features": {
+          "num_paragraphs": 8,
+          "num_sentences": 8,
+          "avg_paragraph_len": 37.625,
+          "avg_sentence_len": 37.625,
+          "paragraph_density": 26.578073089700997,
+          "has_headers": false,
+          "total_length": 301
+        }
+      }
+    ]
+  }
+}
